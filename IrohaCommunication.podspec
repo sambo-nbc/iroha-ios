@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Russel' => 'emkil.russel@gmail.com' }
   s.source           = { :git => 'https://github.com/hyperledger/iroha-ios.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '15.0'
 
   s.requires_arc = 'IrohaCommunication/Classes/**/*'
   s.source_files = 'IrohaCommunication/Classes/**/*', 'ProtoGen/*.{h,m}'
