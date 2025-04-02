@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.dependency 'gRPC-ProtoRPC', '~> 1.71.0'
   s.dependency 'Protobuf', '~> 3.5.0'
   s.dependency 'BoringSSL', '~> 10.0.6'
-  s.dependency 'nanopb', '~> 3.30910.0'
+  s.dependency 'nanopb', '~> 2.30910.0'
 
   s.pod_target_xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1' }
 
