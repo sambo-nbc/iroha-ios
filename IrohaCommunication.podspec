@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.private_header_files = 'IrohaCommunication/Classes/Private/**/*.h', 'ProtoGen/*.h'
   s.preserve_paths = 'ProtoGen/*.{h,m}'
 
-  s.dependency 'IrohaCrypto/Iroha', '~> 0.3.0'
+  s.dependency 'IrohaCrypto/Iroha', '~> 0.9.0'
   s.dependency 'gRPC-ProtoRPC', '~> 1.69.0'
   s.dependency 'Protobuf', '~> 3.5.0'
   s.dependency 'BoringSSL', '~> 10.0.6'
